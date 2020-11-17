@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-admob-mopub",
+  "version": "0.1.0",
+  "description": "Cordova AdMob Mediation Plugin for MoPub",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-plugin-admob-mopub",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "junker/cordova-plugin-admob-mopub",
+  "author": "Junker",
+  "license": "MIT",
+  "keywords": [
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "plugin",
+    "admob",
+    "mopub",
+    "mediation"
+  ],
+  "bugs": {
+    "url": "https://github.com/junker/cordova-plugin-admob-mopub/issues"
+  },
+  "homepage": "https://github.com/junker/cordova-plugin-admob-mopub"
+}

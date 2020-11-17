@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-admob-mopub" version="0.1.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>cordova-plugin-admob-mopub</name>
+    <description>Cordova AdMob Mediation Plugin for MoPub</description>
+
+    <engines>
+        <engine name="cordova" version=">=8.0.0" />
+    </engines>
+
+    <platform name="android">
+        <framework src="com.google.ads.mediation:mopub:5.+" />
+    </platform>
+
+    <platform name="ios">
+        <pods-config ios-min-version="9.0" use-frameworks="true" />
+        <pod id="GoogleMobileAdsMediationMoPub" version="5.14.0.0" />
+    </platform>
+</plugin>

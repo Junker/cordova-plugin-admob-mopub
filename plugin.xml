@@ -15,7 +15,13 @@
     </platform>
 
     <platform name="ios">
-        <pods-config ios-min-version="9.0" use-frameworks="true" />
-        <pod id="GoogleMobileAdsMediationMoPub" version="5.14.0.0" />
+        <podspec>
+            <config>
+                <source url="https://cdn.cocoapods.org/"/>
+            </config>
+            <pods use-frameworks="true">
+                <pod name="GoogleMobileAdsMediationMoPub" spec="~> 5.14" />
+            </pods>
+        </podspec>
     </platform>
 </plugin>
